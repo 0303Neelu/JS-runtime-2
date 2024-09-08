@@ -1,0 +1,27 @@
+root@Neelakandan:/home/neelakandan# cat /var/log/sudo-access.log
+Sep  8 19:24:44 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/sbin/service postfix status
+Sep  8 19:24:52 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
+Sep  8 19:30:23 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
+Sep  8 19:33:50 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
+Sep  8 19:34:25 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/ls
+Sep  8 19:34:38 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
+Sep  8 19:35:42 : neelu : user NOT in sudoers ; TTY=pts/0 ; PWD=/root ;
+    USER=root ; COMMAND=/bin/bash
+Sep  8 19:35:56 : neelu : user NOT in sudoers ; TTY=pts/0 ;
+    PWD=/home/neelakandan ; USER=root ; COMMAND=/usr/bin/ls
+Sep  8 19:36:02 : neelu : user NOT in sudoers ; TTY=pts/0 ;
+    PWD=/home/neelakandan ; USER=root ; COMMAND=/usr/bin/ls
+Sep  8 19:36:10 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
+Sep  8 19:36:57 : neelu : user NOT in sudoers ; TTY=pts/0 ;
+    PWD=/home/neelakandan ; USER=root ; COMMAND=/usr/bin/ls
+Sep  8 19:37:07 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
+Sep  8 20:09:38 : neelakandan : TTY=pts/0 ; PWD=/home/neelakandan ; USER=root ;
+    COMMAND=/usr/bin/su
